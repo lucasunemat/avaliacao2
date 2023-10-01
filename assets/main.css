@@ -54,12 +54,6 @@
     border: none;
 }
 
-.cabecalho-navegacao-botao:hover {
-    background-color: #0b893ae2;
-    color: #000;
-    transition: 0.2s;
-}
-
 .navegacao-lista {
     /*PIXELS*/
     display: flex;
@@ -72,6 +66,20 @@
     font-size: 15px;
     color: #fff;
     padding-block: 16px;
+}
+
+.cabecalho-navegacao .navegacao-lista li a:hover {
+    color: #0faf4ae2;
+    transition: 0.2s;
+}
+
+.cabecalho-navegacao-botao:hover {
+    background-color: #0b893ae2;
+    transition: 0.2s;
+}
+
+.navegacao-lista li .cabecalho-navegacao-botao a:hover{
+    color: #fff;
 }
 
 .logo-cooperativa {
