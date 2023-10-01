@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Montserrat:wght@300;400&family=Righteous&family=Roboto:ital,wght@0,400;1,100&family=Sarala&display=swap');
+
+:root {
+    --dark-color: #111;
+    --light-color: #f3f3f3;
+    --medium-color: #bbb;
+    --border-color: #ddd;
+    --main-color: #0074D9;
+    --error-color: #FF4136;
+    --border-radius: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    background-color: #053d75;
+    box-shadow: 0px 0px 10px #000;
+    padding-inline: 16px;
+    /*PIXEL*/
+}
+
+.cabecalho .cabecalho-navegacao .navegacao-lista {
+    list-style: none;
+}
+
+.cabecalho .cabecalho-navegacao .navegacao-lista li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecalho-navegacao {
+    max-width: 1280px;
+    /*PIXEL*/
+    height: 100px;
+    /*PIXEL*/
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-navegacao-botao {
+    width: 12vw;
+    height: 5vh;
+    background-color: #0faf4ae2;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+}
+
+.cabecalho-navegacao-botao:hover {
+    background-color: #0b893ae2;
+    color: #000;
+    transition: 0.2s;
+}
+
+.navegacao-lista {
+    /*PIXELS*/
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+}
+
+.navegacao-lista a {
+    font-size: 15px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+.logo-cooperativa {
+    width: 48px;
+}
+
+.hamburguer {
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.principal {
+    height: 160vh;
+}
+
+.principal-banner {
+    width: 98.93vw;
+    height: 80vh;
+    background: url('./img/james-baltz-_pBBkarmFTs-unsplash.jpg');
+    background-size: cover;
+    margin-bottom: 10vh;
+    padding-top: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #6a6969;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-banner img {
+    width: 6vw;
+}
+
+.principal-banner div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: -10rem;
+    background-color: #ffffff6a;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.principal-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.principal-historia div {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+}
+
+.principal-historia p {
+    text-align: justify;
+    margin-top: 2rem;
+}
+
+.principal-historia img {
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/*abaixo tem a lista*/
+.principal-areas-negocio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.principal-areas-negocio-div {
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+.principal-areas-negocio-div h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.principal-areas-negocio-div ul {
+    padding-left: 5rem;
+}
+
+.principal-areas-negocio-div ul li {
+    margin-top: 1rem;
+}
+
+.principal-areas-negocio-div ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.principal-areas-negocio-div ul li a:hover {
+    text-decoration: underline;
+}
+
+.principal-soja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-soja h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-soja div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-soja img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+ol.lista-alfabeto-maiusculo {
+    list-style-type: upper-alpha;
+    margin-left: 10px;
+}
+
+.principal-areasAtuacao {
+    height: 350vh;
+}
+
+.principal-milho {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-milho h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-milho div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-milho img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-algodao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-algodao h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-algodao div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-algodao img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-bovinos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-bovinos h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-bovinos div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-bovinos img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-aves {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-aves h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-aves div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-aves img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.rodape {
+    padding: 2em;
+    background-color: #053d75;
+    color: #fff;
+}
+
+.rodape-informacoes-gerais {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Edição das tabelas de diretores e eleições*/
+.principal-quadroDiretores {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal-quadroDiretores h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tabela-diretores {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    width: 40vw;
+}
+
+.tabela-diretores th,
+tr,
+td {
+    border: 0.05rem solid #000;
+    padding: 1rem;
+}
+
+.tabela-diretores th {
+    background-color: #0fbd4f;
+    color: #FFF;
+}
+
+.tabela-diretores tr {
+    background-color: #bdf8d2;
+}
+
+.tabela-proximas-eleicoes {
+    border-collapse: collapse;
+    width: 40vw;
+}
+
+.tabela-proximas-eleicoes th {
+    background-color: #0fbd4f;
+    color: #FFF;
+}
+
+.tabela-proximas-eleicoes tr {
+    background-color: #bdf8d2;
+}
+
+.tabela-proximas-eleicoes th,
+tr,
+td {
+    border: 0.05rem solid #000;
+    padding: 1rem;
+}
+
+.principal-institucionais {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal-institucionais h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.principal-institucionais iframe {
+    width: 40vw;
+}
+
+.principal-institucionais section {
+    margin-top: 1rem;
+}
+
+/* Formulário */
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.formulario {
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    width: 60vw;
+    max-width: 600px;
+    margin: auto;
+}
+
+.formulario div {
+    margin-bottom: 1rem;
+}
+
+.formulario-cta {
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+.formulario label {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+}
+
+#nome {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+}
+
+.formulario-campo-estado-civil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#email {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    /*padding para o placeholder*/
+    border-radius: var(--border-radius);
+}
+
+#telefone {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+}
+
+#curriculo {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+}
+
+#temWhatsApp-2 {
+    margin-left: 30px;
+}
+
+.formulario-campo-vaga-interesse-2 {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario-campo-vaga-interesse span {
+    display: flex;
+    flex-direction: row;
+    font-size: 12pt;
+    color: #000;
+}
+
+#observacao {
+    display: block;
+    width: 39vw;
+    border: 1px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    height: 100px;
+}
+
+#formulario-botao {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #19b019;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: var(--border-radius);
+    color: #fff;
+}
+
+#formulario-botao:hover {
+    background: #006400;
+    color: #fff;
+}
+
+.principal-trabalheConosco {
+    height: 130vh;
+}
+
+.formulario {
+    width: 60vw;
+}
+
+.rodape-informacoes-gerais-endereco-contato {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#rodape-coacen-logo {
+    width: 5vw;
+}
+
+.rodape-informacoes-gerais-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.rodape-informacoes-gerais-redes-sociais div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+}
+
+#rodape-informacoes-gerais-redes-sociais-instagram {
+    width: 4.2vw;
+}
+
+#rodape-informacoes-gerais-redes-sociais-linkedin {
+    width: 2vw;
+}
+
+@media (max-width: 768px) {
+    .hamburguer {
+        display: block;
+        z-index: 1;
+    }
+
+    .navegacao-lista {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #053d75;
+        clip-path: circle(100px at 90% -15%);
+        /*meio que reduz o background e joga ele para o lado para escondê-lo*/
+        transition: 1s ease-out;
+        pointer-events: none;
+        /*evitar que user clique em algo que não aparece na tela*/
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+    }
+
+    .navegacao-lista a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    .navegacao-lista li:nth-child(1) a {
+        transition: 0.5s 0.1s;
+    }
+
+    .navegacao-lista li:nth-child(2) a {
+        transition: 0.5s 0.2s;
+    }
+
+    .navegacao-lista li:nth-child(3) a {
+        transition: 0.5s 0.3s;
+    }
+
+    .navegacao-lista li:nth-child(4) a {
+        transition: 0.5s 0.4s;
+    }
+
+    .navegacao-lista li:nth-child(5) a {
+        transition: 0.5s 0.5s;
+    }
+
+    .cabecalho-navegacao.active .navegacao-lista {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    .cabecalho-navegacao.active .navegacao-lista a {
+        opacity: 1;
+    }
+
+    .cabecalho-navegacao.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    .cabecalho-navegacao.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .cabecalho-navegacao.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .cabecalho-navegacao.active .cabecalho-navegacao-botao {
+        width: 70vw;
+    }
+
+    .principal {
+        height: 300vh;
+    }
+
+    .principal-imagem {
+        width: 100vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-areasAtuacao {
+        height: 450vh;
+    }
+
+    .principal-quadroDiretores {
+        height: 120vh;
+    }
+
+    .tabela-diretores {
+        width: 40vw;
+    }
+
+    .tabela-proximas-eleicoes {
+        width: 40vw;
+    }
+
+    .principal-institucionais iframe {
+        width: 80vw;
+    }
+
+    .principal-institucionais {
+        height: 70vh;
+    }
+
+    .formulario {
+        width: 60vw;
+    }
+
+    .formulario-campo-vaga-interesse-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: right;
+    }
+}
