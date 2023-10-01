@@ -387,7 +387,7 @@ td {
 }
 
 .principal-institucionais {
-    height: 80vh;
+    height: 130vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -406,6 +406,11 @@ td {
 
 .principal-institucionais section {
     margin-top: 1rem;
+}
+
+.principal-audios-lista li {
+    margin-top: 1rem;
+    list-style: none;
 }
 
 /* Formulário */
@@ -676,7 +681,7 @@ td {
     }
 
     .principal-institucionais {
-        height: 70vh;
+        height: 110vh;
     }
 
     .formulario {
