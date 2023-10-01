@@ -78,7 +78,7 @@
     transition: 0.2s;
 }
 
-.navegacao-lista li .cabecalho-navegacao-botao a:hover{
+.navegacao-lista li .cabecalho-navegacao-botao a:hover {
     color: #fff;
 }
 
@@ -111,7 +111,7 @@
 }
 
 .principal-banner {
-    width: 98.93vw;
+    width: 100vw;
     height: 80vh;
     background: url('./img/james-baltz-_pBBkarmFTs-unsplash.jpg');
     background-size: cover;
@@ -183,7 +183,9 @@
 }
 
 .principal-areas-negocio-div ul {
-    padding-left: 5rem;
+    padding: 3rem 0rem 3rem 5rem;
+    border-top: 0.005rem solid #333;
+    border-bottom: 0.005rem solid #333;
 }
 
 .principal-areas-negocio-div ul li {
@@ -228,7 +230,7 @@ ol.lista-alfabeto-maiusculo {
 }
 
 .principal-areasAtuacao {
-    height: 350vh;
+    height: 370vh;
 }
 
 .principal-milho {
@@ -657,19 +659,152 @@ td {
         width: 70vw;
     }
 
+    .rodape-informacoes-gerais-endereco-contato {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .rodape-informacoes-gerais-endereco-contato span {
+        width: 50vw;
+    }
+
+    #rodape-coacen-logo {
+        display: none;
+    }
+
+    .rodape-informacoes-gerais-redes-sociais p {
+        display: none;
+    }
+
+    .rodape-informacoes-gerais-redes-sociais div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    #rodape-informacoes-gerais-redes-sociais-instagram {
+        width: 14vw;
+    }
+
+    #rodape-informacoes-gerais-redes-sociais-linkedin {
+        width: 7vw;
+    }
+
     .principal {
-        height: 300vh;
+        height: 160vh;
     }
 
     .principal-imagem {
-        width: 100vw;
+        width: 98vw;
         height: 50vh;
         background-size: contain;
         background-repeat: no-repeat;
     }
 
+    .principal-banner {
+        width: 99.93vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
     .principal-areasAtuacao {
-        height: 450vh;
+        height: 420vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 80vw;
     }
 
     .principal-quadroDiretores {
@@ -701,5 +836,29 @@ td {
         flex-direction: column;
         justify-content: right;
         align-items: right;
+    }
+
+    #nome{
+        width: 59vw;
+    }
+
+    #email{
+        width: 59vw;
+    }
+
+    #telefone{
+        width: 59vw;
+    }
+
+    #curriculo{
+        width: 59vw;
+    }
+
+    #observacao{
+        width: 59vw;
+    }
+
+    .formulario-campo-whatsapp input{
+       margin-left: 4rem;
     }
 }
