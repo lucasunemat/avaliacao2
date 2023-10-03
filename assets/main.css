@@ -584,7 +584,7 @@ td {
 @media (max-width: 768px) {
     .hamburguer {
         display: block;
-        z-index: 100;
+        z-index: 101;
     }
 
     .navegacao-lista {
@@ -633,7 +633,7 @@ td {
     .cabecalho-navegacao.active .navegacao-lista {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
-        z-index: 99;
+        z-index: 100;
     }
 
     .cabecalho-navegacao.active .navegacao-lista a {
