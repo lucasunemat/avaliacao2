@@ -584,7 +584,7 @@ td {
 @media (max-width: 768px) {
     .hamburguer {
         display: block;
-        z-index: 101;
+        z-index: 201;
     }
 
     .navegacao-lista {
@@ -633,7 +633,8 @@ td {
     .cabecalho-navegacao.active .navegacao-lista {
         clip-path: circle(1500px at 90% -15%);
         pointer-events: all;
-        z-index: 100;
+        z-index: 200;
+        /*isso que faz a lista sobrepor tudo*/
     }
 
     .cabecalho-navegacao.active .navegacao-lista a {
@@ -825,7 +826,7 @@ td {
     }
 
     .principal-institucionais {
-        height: 110vh;
+        height: 120vh;
     }
 
     .formulario {
@@ -839,31 +840,30 @@ td {
         align-items: right;
     }
 
-    #nome{
+    #nome {
         width: 59vw;
     }
 
-    #email{
+    #email {
         width: 59vw;
     }
 
-    #telefone{
+    #telefone {
         width: 59vw;
     }
 
-    #curriculo{
+    #curriculo {
         width: 59vw;
     }
 
-    #observacao{
+    #observacao {
         width: 59vw;
     }
 
-    .formulario-campo-whatsapp input{
-       margin-left: 4rem;
+    .formulario-campo-whatsapp input {
+        margin-left: 4rem;
     }
 
-    audio {
-        z-index: -1;
-    }
+
+
 }
