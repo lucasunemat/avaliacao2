@@ -111,7 +111,7 @@
 }
 
 .principal-banner {
-    width: 98.93vw;
+    width: 100vw;
     height: 80vh;
     background: url('./img/james-baltz-_pBBkarmFTs-unsplash.jpg');
     background-size: cover;
@@ -808,6 +808,7 @@ td {
     .principal-aves img {
         width: 80vw;
     }
+
 
     .principal-quadroDiretores {
         height: 120vh;
