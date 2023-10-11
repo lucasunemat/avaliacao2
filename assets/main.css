@@ -153,9 +153,13 @@
     align-items: center;
 }
 
-.principal-historia p {
+.principal-historia div h2{
+    margin-bottom: 1em;
+}
+
+.principal-historia ul li {
+    list-style: none;
     text-align: justify;
-    margin-top: 2rem;
 }
 
 .principal-historia img {
@@ -463,6 +467,7 @@ td {
     border: 0.3px solid var(--border-color);
     padding: 5px 10px;
     border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
 }
 
 .formulario-campo-estado-civil {
@@ -479,6 +484,7 @@ td {
     padding: 5px 10px;
     /*padding para o placeholder*/
     border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
 }
 
 #telefone {
@@ -487,6 +493,7 @@ td {
     border: 0.3px solid var(--border-color);
     padding: 5px 10px;
     border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
 }
 
 #curriculo {
@@ -495,6 +502,7 @@ td {
     border: 0.3px solid var(--border-color);
     padding: 5px 10px;
     border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
 }
 
 #temWhatsApp-2 {
@@ -523,6 +531,7 @@ td {
     padding: 5px 10px;
     border-radius: var(--border-radius);
     height: 100px;
+    outline: 1px solid #555;
 }
 
 #formulario-botao {
@@ -860,7 +869,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 320vh;
+        height: 350vh;
     }
 
     .principal-quadroDiretores {
@@ -1163,6 +1172,7 @@ td {
 
     .formulario {
         width: 60vw;
+        height: 80vh;
     }
 
     .formulario-campo-vaga-interesse-2 {
@@ -1199,8 +1209,6 @@ td {
     .principal-trabalheConosco {
         height: 100vh;
     }
-
-
 }
 
 /*Dispositivo com 540 width*/
@@ -1343,7 +1351,7 @@ td {
     }
 }
 
-@media (max-width: 412px) {
+@media (max-width: 416px) {
     .principal {
         height: 152vh;
     }
@@ -1382,7 +1390,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 420vh;
+        height: 425vh;
     }
 
     .principal-soja {
@@ -1470,11 +1478,14 @@ td {
     .principal-institucionais {
         height: 110vh;
     }
-}
 
-@media (max-width: 390px) {
+    .principal-institucionais iframe {
+        width: 80vw;
+    }
+}
+@media (max-width: 391px) {
     .principal {
-        height: 170vh;
+        height: 155vh;
     }
 
     .principal-banner div {
@@ -1516,7 +1527,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 530vh;
+        height: 480vh;
     }
 
     .principal-soja {
@@ -1590,15 +1601,153 @@ td {
     }
 
     .principal-quadroDiretores {
-        height: 150vh;
+        height: 145vh;
     }
 
     .principal-trabalheConosco {
-        height: 150vh;
+        height: 140vh;
     }
 
     .principal-institucionais {
         height: 150vh;
+    }
+
+    .formulario {
+        height: 125vh;
+    }
+}
+
+@media (max-width: 376px) {
+    .principal {
+        height: 185vh;
+    }
+
+    .principal-banner div {
+        margin-top: 1vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        margin-top: 5vh;
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 580vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-quadroDiretores {
+        height: 145vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 140vh;
+    }
+
+    .principal-institucionais {
+        height: 150vh;
+    }
+
+    .formulario {
+        height: 125vh;
     }
 }
 
