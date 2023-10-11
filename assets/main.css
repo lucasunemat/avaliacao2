@@ -850,59 +850,59 @@ td {
     }
 }
 
-@media (max-width: 913px){
-    .principal{
+@media (max-width: 913px) {
+    .principal {
         height: 130vh;
     }
 
-    .logo-cooperativa{
+    .logo-cooperativa {
         margin-right: 1rem;
     }
 
-    .principal-areasAtuacao{
+    .principal-areasAtuacao {
         height: 320vh;
     }
 
-    .principal-quadroDiretores{
+    .principal-quadroDiretores {
         height: 81vh;
     }
 
-    .principal-tabela .tabela-diretores{
+    .principal-tabela .tabela-diretores {
         width: 80vw;
         height: 40vw;
     }
 
-    .principal-tabela .tabela-proximas-eleicoes{
+    .principal-tabela .tabela-proximas-eleicoes {
         width: 80vw;
         height: 50vw;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 79vh;
     }
 
-    .formulario{
+    .formulario {
         width: 80vw;
         height: 60vh;
     }
 
-    #nome{
+    #nome {
         width: 40vw;
     }
 
-    #email{
+    #email {
         width: 40vw;
     }
 
-    #telefone{
+    #telefone {
         width: 40vw;
     }
 
-    #observacao{
+    #observacao {
         width: 40vw;
     }
 
-    .principal-institucionais{
+    .principal-institucionais {
         height: 88vh;
     }
 
@@ -1058,7 +1058,7 @@ td {
         height: 405vh;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 100vh;
     }
 
@@ -1196,14 +1196,16 @@ td {
         margin-left: 4rem;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 100vh;
     }
+
+
 }
 
 /*Dispositivo com 540 width*/
 
-@media (max-width: 541px){
+@media (max-width: 541px) {
     .principal {
         height: 170vh;
     }
@@ -1323,19 +1325,19 @@ td {
         width: 80vw;
     }
 
-    .principal-institucionais{
+    .principal-institucionais {
         height: 135vh;
     }
 
-    .principal-quadroDiretores{
+    .principal-quadroDiretores {
         height: 120vh;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 130vh;
     }
 
-    .formulario{
+    .formulario {
         width: 80vw;
         height: 110vh;
     }
@@ -1457,25 +1459,25 @@ td {
         width: 80vw;
     }
 
-    .principal-quadroDiretores{
+    .principal-quadroDiretores {
         height: 115vh;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 120vh;
     }
 
-    .principal-institucionais{
+    .principal-institucionais {
         height: 110vh;
     }
 }
 
-@media (max-width: 390px){
-    .principal{
+@media (max-width: 390px) {
+    .principal {
         height: 170vh;
     }
 
-    .principal-banner div{
+    .principal-banner div {
         margin-top: 1vh;
     }
 
@@ -1587,15 +1589,15 @@ td {
         gap: 2rem;
     }
 
-    .principal-quadroDiretores{
+    .principal-quadroDiretores {
         height: 150vh;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 150vh;
     }
 
-    .principal-institucionais{
+    .principal-institucionais {
         height: 150vh;
     }
 }
@@ -1608,7 +1610,7 @@ td {
         height: 210vh;
     }
 
-    .principal-banner div{
+    .principal-banner div {
         margin-top: 1vh;
     }
 
@@ -1728,29 +1730,25 @@ td {
         width: 95vw;
     }
 
-    .principal-quadroDiretores{
+    .principal-quadroDiretores {
         height: 170vh;
     }
 
     .principal-tabela .tabela-diretores {
         width: 50vw;
-    }	
+    }
 
     .principal-institucionais {
         height: 150vh;
     }
 
-    .principal-trabalheConosco{
+    .principal-trabalheConosco {
         height: 180vh;
     }
 
-    .formulario{
+    .formulario {
         width: 80vw;
         height: 150vh;
     }
-    
+
 }
-
-/*ULTIMO: FAZER VERSÃO PARA MAX WIDTH 390PX*/
-
-
