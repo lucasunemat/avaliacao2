@@ -436,7 +436,7 @@ td {
 .formulario {
     padding: 2rem;
     background: #fff;
-    box-shadow: 0 0 2rem rgba(0, 0, 0, .2);
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .6);
     width: 60vw;
     max-width: 600px;
     margin: auto;
@@ -865,3 +865,544 @@ td {
         margin-left: 4rem;
     }
 }
+
+/*configurar media query para dispositivo 1024 x 600*/
+
+@media (max-width: 1024px) {
+    .principal {
+        height: 240vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 770vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 60vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 150vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 140vh;
+    }
+
+    .principal-institucionais {
+        height: 170vh;
+    }
+}
+
+/*tela de até 1280*/
+
+@media (max-width: 1280px) {
+    .principal {
+        height: 195vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 630vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 60vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 100vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 100vh;
+    }
+
+    .principal-institucionais {
+        height: 120vh;
+    }
+}
+
+/*Agora para dispositivos de até 412 pixels de width*/
+
+@media (max-width: 412px) {
+    .principal {
+        height: 160vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 410vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-quadroDiretores{
+        height: 120vh;
+    }
+
+    .principal-trabalheConosco{
+        height: 120vh;
+    }
+}
+
+/*Agora versão responsiva para dispositivo com 280 de width*/
+
+@media (max-width: 280px) {
+    .principal {
+        height: 210vh;
+    }
+
+    .principal-banner div{
+        margin-top: 1vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        margin-top: 5vh;
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 615vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .cabecalho-navegacao.active .cabecalho-navegacao-botao {
+        width: 95vw;
+    }
+
+    .principal-quadroDiretores{
+        height: 150vh;
+    }
+
+    .principal-tabela .tabela-diretores {
+        width: 50vw;
+    }	
+
+    .principal-institucionais {
+        height: 150vh;
+    }
+    
+}
+
+/*agora uma interface com 540px de width*/
+
