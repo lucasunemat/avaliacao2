@@ -850,7 +850,7 @@ td {
     }
 }
 
-@media (max-width: 912px){
+@media (max-width: 913px){
     .principal{
         height: 130vh;
     }
@@ -860,23 +860,55 @@ td {
     }
 
     .principal-areasAtuacao{
-        height: 360vh;
+        height: 320vh;
     }
 
     .principal-quadroDiretores{
-        height: 90vh;
+        height: 81vh;
+    }
+
+    .principal-tabela .tabela-diretores{
+        width: 80vw;
+        height: 40vw;
+    }
+
+    .principal-tabela .tabela-proximas-eleicoes{
+        width: 80vw;
+        height: 50vw;
     }
 
     .principal-trabalheConosco{
-        height: 80vh;
+        height: 79vh;
+    }
+
+    .formulario{
+        width: 80vw;
+        height: 60vh;
+    }
+
+    #nome{
+        width: 40vw;
+    }
+
+    #email{
+        width: 40vw;
+    }
+
+    #telefone{
+        width: 40vw;
+    }
+
+    #observacao{
+        width: 40vw;
     }
 
     .principal-institucionais{
-        height: 87vh;
+        height: 88vh;
     }
+
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
     .hamburguer {
         display: block;
         z-index: 201;
@@ -1023,7 +1055,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 420vh;
+        height: 405vh;
     }
 
     .principal-trabalheConosco{
@@ -1110,7 +1142,7 @@ td {
 
 
     .principal-quadroDiretores {
-        height: 120vh;
+        height: 105vh;
     }
 
     .tabela-diretores {
@@ -1126,7 +1158,7 @@ td {
     }
 
     .principal-institucionais {
-        height: 120vh;
+        height: 103vh;
     }
 
     .formulario {
@@ -1163,13 +1195,17 @@ td {
     .formulario-campo-whatsapp input {
         margin-left: 4rem;
     }
+
+    .principal-trabalheConosco{
+        height: 100vh;
+    }
 }
 
 /*Dispositivo com 540 width*/
 
-@media (max-width: 540px){
+@media (max-width: 541px){
     .principal {
-        height: 160vh;
+        height: 170vh;
     }
 
     .cabecalho-navegacao-botao {
@@ -1206,7 +1242,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 430vh;
+        height: 560vh;
     }
 
     .principal-soja {
@@ -1288,7 +1324,7 @@ td {
     }
 
     .principal-institucionais{
-        height: 115vh;
+        height: 135vh;
     }
 
     .principal-quadroDiretores{
@@ -1296,13 +1332,18 @@ td {
     }
 
     .principal-trabalheConosco{
-        height: 120vh;
+        height: 130vh;
+    }
+
+    .formulario{
+        width: 80vw;
+        height: 110vh;
     }
 }
 
 @media (max-width: 412px) {
     .principal {
-        height: 150vh;
+        height: 152vh;
     }
 
     .cabecalho-navegacao-botao {
@@ -1417,17 +1458,21 @@ td {
     }
 
     .principal-quadroDiretores{
-        height: 120vh;
+        height: 115vh;
     }
 
     .principal-trabalheConosco{
         height: 120vh;
     }
+
+    .principal-institucionais{
+        height: 110vh;
+    }
 }
 
 @media (max-width: 390px){
     .principal{
-        height: 180vh;
+        height: 170vh;
     }
 
     .principal-banner div{
@@ -1469,7 +1514,7 @@ td {
     }
 
     .principal-areasAtuacao {
-        height: 600vh;
+        height: 530vh;
     }
 
     .principal-soja {
@@ -1547,7 +1592,7 @@ td {
     }
 
     .principal-trabalheConosco{
-        height: 170vh;
+        height: 150vh;
     }
 
     .principal-institucionais{
@@ -1684,7 +1729,7 @@ td {
     }
 
     .principal-quadroDiretores{
-        height: 150vh;
+        height: 170vh;
     }
 
     .principal-tabela .tabela-diretores {
@@ -1697,6 +1742,11 @@ td {
 
     .principal-trabalheConosco{
         height: 180vh;
+    }
+
+    .formulario{
+        width: 80vw;
+        height: 150vh;
     }
     
 }
