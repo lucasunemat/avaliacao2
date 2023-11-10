@@ -1,63 +1,70 @@
-<main class="principal-trabalheConosco">
-    <section class="container-formulario">
-        <form class="formulario">
-            <h2 class="formulario-cta">Se interessou em unir forças e trabalhar com a gente? Cadastre-se para nossas
-                oportunidades!</h2>
-            <div class="formulario-campo-nome">
-                <label for="nome">Nome completo:</label>
-                <input type="text" name="nome" id="nome" placeholder="Nome completo">
-            </div>
-            <div class="formulario-campo-estado-civil">
-                <p>Estado civil:</p>
-                <select name="estado-civil" id="estado-civil">
-                    <option value="escolha"> - Selecione - </option>
-                    <option value="solteiro">Solteiro</option><!--O primeiro é o que fica por padrão-->
-                    <option value="casado">Casado</option>
-                    <option value="divorciado">Divorciado</option>
-                    <option value="viuvo">Viúvo</option>
-                    <option value="amasiado">Amasiado</option>
-                </select>
-            </div>
-            <div class="formulario-campo-email">
-                <label for="email">E-mail:</label>
-                <input type="email" name="email" id="email" placeholder="E-mail">
-            </div>
-            <div class="formulario-campo-telefone">
-                <label for="telefone">Telefone:</label>
-                <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
-            </div>
-            <div class="formulario-campo-whatsapp">
-                <label for="temWhatsApp">O telefone informado tem WhatsApp?</label><br>
-                <input type="radio" name="temWhatsApp" id="temWhatsApp-1" value="sim">Sim
-                <input type="radio" name="temWhatsApp" id="temWhatsApp-2" value="sim">Não
-            </div>
-            <div class="formulario-campo-vaga-interesse">
-                <!--Campo de checkboxes-->
-                <label for="vagaInteresse">Vaga de Interesse:</label>
-                <div class="formulario-campo-vaga-interesse-2">
-                    <span>
-                        <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-1"
-                            value="administrativo"><label for="vagaInteresse-1">Administrativo</label>
-                    </span>
-                    <span>
-                        <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-2"
-                            value="auxiliarContabil"><label for="vagaInteresse-2">Auxiliar Contábil</label>
-                    </span>
-                    <span>
-                        <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-3"
-                            value="faturista"><label for="vagaInteresse-3">Faturista</label>
-                    </span>
+<html>
+
+<body>
+    <main class="principal-trabalheConosco">
+        <section class="container-formulario">
+            <form class="formulario">
+                <h2 class="formulario-cta">Se interessou em unir forças e trabalhar com a gente? Cadastre-se para nossas
+                    oportunidades!</h2>
+                <div class="formulario-campo-nome">
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome completo">
                 </div>
-            </div>
-            <div class="formulario-campo-anexo-curriculo">
-                <label for="curriculo">Anexe seu currículo no formato PDF abaixo:</label>
-                <input type="file" name="curriculo" id="curriculo" accept="application/pdf">
-            </div>
-            <div class="formulario-campo-observacao">
-                <label for="observacao">Gostaria de fazer alguma observação?</label>
-                <textarea name="observacao" id="observacao" cols="73.8" rows="10" placeholder=""></textarea>
-            </div>
-            <button id="formulario-botao">Enviar</button>
-        </form>
-    </section>
-</main>
+                <div class="formulario-campo-estado-civil">
+                    <p>Estado civil:</p>
+                    <select name="estado-civil" id="estado-civil">
+                        <option value="escolha"> - Selecione - </option>
+                        <option value="solteiro">Solteiro</option><!--O primeiro é o que fica por padrão-->
+                        <option value="casado">Casado</option>
+                        <option value="divorciado">Divorciado</option>
+                        <option value="viuvo">Viúvo</option>
+                        <option value="amasiado">Amasiado</option>
+                    </select>
+                </div>
+                <div class="formulario-campo-email">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="E-mail">
+                </div>
+                <div class="formulario-campo-telefone">
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="Telefone">
+                </div>
+                <div class="formulario-campo-whatsapp">
+                    <label for="temWhatsApp">O telefone informado tem WhatsApp?</label><br>
+                    <input type="radio" name="temWhatsApp" id="temWhatsApp-1" value="sim">Sim
+                    <input type="radio" name="temWhatsApp" id="temWhatsApp-2" value="sim">Não
+                </div>
+                <div class="formulario-campo-vaga-interesse">
+                    <!--Campo de checkboxes-->
+                    <label for="vagaInteresse">Vaga de Interesse:</label>
+                    <div class="formulario-campo-vaga-interesse-2">
+                        <span>
+                            <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-1"
+                                value="administrativo"><label for="vagaInteresse-1">Administrativo</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-2"
+                                value="auxiliarContabil"><label for="vagaInteresse-2">Auxiliar Contábil</label>
+                        </span>
+                        <span>
+                            <input type="checkbox" class="checkbox" name="vagaInteresse" id="vagaInteresse-3"
+                                value="faturista"><label for="vagaInteresse-3">Faturista</label>
+                        </span>
+                    </div>
+                </div>
+                <div class="formulario-campo-anexo-curriculo">
+                    <label for="curriculo">Anexe seu currículo no formato PDF abaixo:</label>
+                    <input type="file" name="curriculo" id="curriculo" accept="application/pdf">
+                </div>
+                <div class="formulario-campo-observacao">
+                    <label for="observacao">Gostaria de fazer alguma observação?</label>
+                    <textarea name="observacao" id="observacao" cols="73.8" rows="10" placeholder=""></textarea>
+                </div>
+                <button id="formulario-botao">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <script src="../assets/js/form-validation.js"></script>
+</body>
+
+</html>
