@@ -1,0 +1,1905 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Montserrat:wght@300;400&family=Righteous&family=Roboto:ital,wght@0,400;1,100&family=Sarala&display=swap');
+
+:root {
+    --dark-color: #111;
+    --light-color: #f3f3f3;
+    --medium-color: #bbb;
+    --border-color: #ddd;
+    --main-color: #0074D9;
+    --error-color: #FF4136;
+    --border-radius: 4px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.cabecalho {
+    background-color: #053d75;
+    box-shadow: 0px 0px 10px #000;
+    padding-inline: 16px;
+    /*PIXEL*/
+}
+
+.cabecalho .cabecalho-navegacao .navegacao-lista {
+    list-style: none;
+}
+
+.cabecalho .cabecalho-navegacao .navegacao-lista li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.cabecalho-navegacao {
+    max-width: 1280px;
+    /*PIXEL*/
+    height: 100px;
+    /*PIXEL*/
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho-navegacao-botao {
+    width: 12vw;
+    height: 5vh;
+    background-color: #0faf4ae2;
+    border-radius: 0.5rem;
+    color: #FFFFFF;
+    box-shadow: none;
+    border: none;
+}
+
+.navegacao-lista {
+    /*PIXELS*/
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    align-items: center;
+}
+
+.navegacao-lista a {
+    font-size: 15px;
+    color: #fff;
+    padding-block: 16px;
+}
+
+.cabecalho-navegacao .navegacao-lista li a:hover {
+    color: #0faf4ae2;
+    transition: 0.2s;
+}
+
+.cabecalho-navegacao-botao:hover {
+    background-color: #0b893ae2;
+    transition: 0.2s;
+}
+
+.navegacao-lista li .cabecalho-navegacao-botao a:hover {
+    color: #fff;
+}
+
+.logo-cooperativa {
+    width: 48px;
+}
+
+.hamburguer {
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.hamburguer::before,
+.hamburguer::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+.principal {
+    height: 160vh;
+}
+
+.principal-banner {
+    width: 98.93vw;
+    height: 80vh;
+    background: url('./img/james-baltz-_pBBkarmFTs-unsplash.jpg');
+    background-size: cover;
+    margin-bottom: 10vh;
+    padding-top: 1rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem #6a6969;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.principal-banner img {
+    width: 6vw;
+}
+
+.principal-banner div {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    margin-top: -10rem;
+    background-color: #ffffff6a;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.principal-historia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.principal-historia div {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    align-items: center;
+}
+
+.principal-historia div h2{
+    margin-bottom: 1em;
+}
+
+.principal-historia ul li {
+    list-style: none;
+    text-align: justify;
+}
+
+.principal-historia img {
+    width: 40vw;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+/*abaixo tem a lista*/
+.principal-areas-negocio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+
+.principal-areas-negocio-div {
+    padding-top: 2rem;
+    background-color: #fff;
+}
+
+.principal-areas-negocio-div h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.principal-areas-negocio-div ul {
+    padding: 3rem 0rem 3rem 5rem;
+    border-top: 0.005rem solid #333;
+    border-bottom: 0.005rem solid #333;
+}
+
+.principal-areas-negocio-div ul li {
+    margin-top: 1rem;
+}
+
+.principal-areas-negocio-div ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.principal-areas-negocio-div ul li a:hover {
+    text-decoration: underline;
+}
+
+.principal-soja {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-soja h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-soja div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-soja img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+ol.lista-alfabeto-maiusculo {
+    list-style-type: upper-alpha;
+    margin-left: 10px;
+}
+
+.principal-areasAtuacao {
+    height: 370vh;
+}
+
+.principal-milho {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-milho h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-milho div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-milho img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-algodao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-algodao h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-algodao div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-algodao img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-bovinos {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-bovinos h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-bovinos div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-bovinos img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.principal-aves {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-bottom: 10rem;
+}
+
+.principal-aves h3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.principal-aves div {
+    text-align: justify;
+    width: 35vw;
+}
+
+.principal-aves img {
+    width: 30vw;
+    border-radius: 0.3rem;
+}
+
+.rodape {
+    padding: 2em;
+    background-color: #053d75;
+    color: #fff;
+}
+
+.rodape-informacoes-gerais {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Edição das tabelas de diretores e eleições*/
+.principal-quadroDiretores {
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal-quadroDiretores h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.tabela-diretores {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    width: 40vw;
+}
+
+.tabela-diretores th,
+tr,
+td {
+    border: 0.05rem solid #000;
+    padding: 1rem;
+}
+
+.tabela-diretores th {
+    background-color: #0fbd4f;
+    color: #FFF;
+}
+
+.tabela-diretores tr {
+    background-color: #bdf8d2;
+}
+
+.tabela-proximas-eleicoes {
+    border-collapse: collapse;
+    width: 40vw;
+}
+
+.tabela-proximas-eleicoes th {
+    background-color: #0fbd4f;
+    color: #FFF;
+}
+
+.tabela-proximas-eleicoes tr {
+    background-color: #bdf8d2;
+}
+
+.tabela-proximas-eleicoes th,
+tr,
+td {
+    border: 0.05rem solid #000;
+    padding: 1rem;
+}
+
+.principal-institucionais {
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.principal-institucionais h2 {
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.principal-institucionais iframe {
+    width: 40vw;
+}
+
+.principal-institucionais section {
+    margin-top: 1rem;
+}
+
+.principal-audios-lista li {
+    margin-top: 1rem;
+    list-style: none;
+}
+
+/* Formulário */
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+.formulario {
+    padding: 2rem;
+    background: #fff;
+    box-shadow: 0 0 2rem rgba(0, 0, 0, .6);
+    width: 60vw;
+    max-width: 600px;
+    margin: auto;
+}
+
+.formulario div {
+    margin-bottom: 1rem;
+}
+
+.formulario-cta {
+    padding: 1rem 0 2rem 0;
+    text-align: center;
+}
+
+.formulario label {
+    display: block;
+    font-size: 1rem;
+    color: #000;
+}
+
+#nome {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
+}
+
+.formulario-campo-estado-civil {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+#email {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    /*padding para o placeholder*/
+    border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
+}
+
+#telefone {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
+}
+
+#curriculo {
+    display: block;
+    width: 39vw;
+    border: 0.3px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    outline: 0.6px solid #777;
+}
+
+#temWhatsApp-2 {
+    margin-left: 30px;
+}
+
+.formulario-campo-vaga-interesse-2 {
+    display: flex;
+    margin-top: 5px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.formulario-campo-vaga-interesse span {
+    display: flex;
+    flex-direction: row;
+    font-size: 12pt;
+    color: #000;
+}
+
+#observacao {
+    display: block;
+    width: 39vw;
+    border: 1px solid var(--border-color);
+    padding: 5px 10px;
+    border-radius: var(--border-radius);
+    height: 100px;
+    outline: 1px solid #555;
+}
+
+#formulario-botao {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    background: #19b019;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: var(--border-radius);
+    color: #fff;
+}
+
+#formulario-botao:hover {
+    background: #006400;
+    color: #fff;
+}
+
+.principal-trabalheConosco {
+    height: 130vh;
+}
+
+.formulario {
+    width: 60vw;
+}
+
+.rodape-informacoes-gerais-endereco-contato {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+#rodape-coacen-logo {
+    width: 5vw;
+}
+
+.rodape-informacoes-gerais-redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.rodape-informacoes-gerais-redes-sociais div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -1rem;
+}
+
+#rodape-informacoes-gerais-redes-sociais-instagram {
+    width: 4.2vw;
+}
+
+#rodape-informacoes-gerais-redes-sociais-linkedin {
+    width: 2vw;
+}
+
+/*tela de até 1280*/
+
+@media (max-width: 1280px) {
+    .principal {
+        height: 195vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 630vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 60vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 100vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 100vh;
+    }
+
+    .principal-institucionais {
+        height: 120vh;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .principal {
+        height: 240vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 770vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 60vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 150vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 140vh;
+    }
+
+    .principal-institucionais {
+        height: 170vh;
+    }
+}
+
+@media (max-width: 913px) {
+    .principal {
+        height: 130vh;
+    }
+
+    .logo-cooperativa {
+        margin-right: 1rem;
+    }
+
+    .principal-areasAtuacao {
+        height: 350vh;
+    }
+
+    .principal-quadroDiretores {
+        height: 81vh;
+    }
+
+    .principal-tabela .tabela-diretores {
+        width: 80vw;
+        height: 40vw;
+    }
+
+    .principal-tabela .tabela-proximas-eleicoes {
+        width: 80vw;
+        height: 50vw;
+    }
+
+    .principal-trabalheConosco {
+        height: 79vh;
+    }
+
+    .formulario {
+        width: 80vw;
+        height: 60vh;
+    }
+
+    #nome {
+        width: 40vw;
+    }
+
+    #email {
+        width: 40vw;
+    }
+
+    #telefone {
+        width: 40vw;
+    }
+
+    #observacao {
+        width: 40vw;
+    }
+
+    .principal-institucionais {
+        height: 88vh;
+    }
+
+}
+
+@media (max-width: 769px) {
+    .hamburguer {
+        display: block;
+        z-index: 201;
+    }
+
+    .navegacao-lista {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: #053d75;
+        clip-path: circle(100px at 90% -15%);
+        /*meio que reduz o background e joga ele para o lado para escondê-lo*/
+        transition: 1s ease-out;
+        pointer-events: none;
+        /*evitar que user clique em algo que não aparece na tela*/
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+    }
+
+    .navegacao-lista a {
+        font-size: 24px;
+        opacity: 0;
+    }
+
+    .navegacao-lista li:nth-child(1) a {
+        transition: 0.5s 0.1s;
+    }
+
+    .navegacao-lista li:nth-child(2) a {
+        transition: 0.5s 0.2s;
+    }
+
+    .navegacao-lista li:nth-child(3) a {
+        transition: 0.5s 0.3s;
+    }
+
+    .navegacao-lista li:nth-child(4) a {
+        transition: 0.5s 0.4s;
+    }
+
+    .navegacao-lista li:nth-child(5) a {
+        transition: 0.5s 0.5s;
+    }
+
+    .cabecalho-navegacao.active .navegacao-lista {
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+        z-index: 200;
+        /*isso que faz a lista sobrepor tudo*/
+    }
+
+    .cabecalho-navegacao.active .navegacao-lista a {
+        opacity: 1;
+    }
+
+    .cabecalho-navegacao.active .hamburguer {
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+
+    .cabecalho-navegacao.active .hamburguer::before {
+        transform: rotate(135deg);
+    }
+
+    .cabecalho-navegacao.active .hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+
+    .cabecalho-navegacao.active .cabecalho-navegacao-botao {
+        width: 70vw;
+    }
+
+    .rodape-informacoes-gerais-endereco-contato {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .rodape-informacoes-gerais-endereco-contato span {
+        width: 50vw;
+    }
+
+    #rodape-coacen-logo {
+        display: none;
+    }
+
+    .rodape-informacoes-gerais-redes-sociais p {
+        display: none;
+    }
+
+    .rodape-informacoes-gerais-redes-sociais div {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    #rodape-informacoes-gerais-redes-sociais-instagram {
+        width: 14vw;
+    }
+
+    #rodape-informacoes-gerais-redes-sociais-linkedin {
+        width: 7vw;
+    }
+
+    .principal {
+        height: 160vh;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 405vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 100vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 80vw;
+    }
+
+
+    .principal-quadroDiretores {
+        height: 105vh;
+    }
+
+    .tabela-diretores {
+        width: 40vw;
+    }
+
+    .tabela-proximas-eleicoes {
+        width: 40vw;
+    }
+
+    .principal-institucionais iframe {
+        width: 80vw;
+    }
+
+    .principal-institucionais {
+        height: 105vh;
+    }
+
+    .formulario {
+        width: 60vw;
+        height: 80vh;
+    }
+
+    .formulario-campo-vaga-interesse-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        align-items: right;
+    }
+
+    #nome {
+        width: 59vw;
+    }
+
+    #email {
+        width: 59vw;
+    }
+
+    #telefone {
+        width: 59vw;
+    }
+
+    #curriculo {
+        width: 59vw;
+    }
+
+    #observacao {
+        width: 59vw;
+    }
+
+    .formulario-campo-whatsapp input {
+        margin-left: 4rem;
+    }
+
+    .principal-trabalheConosco {
+        height: 100vh;
+    }
+}
+
+/*Dispositivo com 540 width*/
+
+@media (max-width: 541px) {
+    .principal {
+        height: 170vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 560vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-aves img {
+        width: 80vw;
+    }
+
+    .principal-institucionais {
+        height: 135vh;
+    }
+
+    .principal-quadroDiretores {
+        height: 120vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 130vh;
+    }
+
+    .formulario {
+        width: 80vw;
+        height: 110vh;
+    }
+}
+
+@media (max-width: 416px) {
+    .principal {
+        height: 152vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 450vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 115vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 120vh;
+    }
+
+    .principal-institucionais {
+        height: 120vh;
+    }
+
+    .principal-institucionais iframe {
+        width: 80vw;
+    }
+}
+@media (max-width: 395px) {
+    .principal {
+        height: 155vh;
+    }
+
+    .principal-banner div {
+        margin-top: 1vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        margin-top: 5vh;
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 480vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-quadroDiretores {
+        height: 125vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 120vh;
+    }
+
+    .principal-institucionais {
+        height: 120vh;
+    }
+
+    .formulario {
+        height: 105vh;
+    }
+}
+
+@media (max-width: 376px) {
+    .principal {
+        height: 185vh;
+    }
+
+    .principal-banner div {
+        margin-top: 1vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        margin-top: 5vh;
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 580vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-quadroDiretores {
+        height: 145vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 140vh;
+    }
+
+    .principal-institucionais {
+        height: 150vh;
+    }
+
+    .formulario {
+        height: 125vh;
+    }
+
+
+}
+
+
+/*Agora versão responsiva para dispositivo com 280 de width*/
+
+@media (max-width: 280px) {
+    .principal {
+        height: 210vh;
+    }
+
+    .principal-banner div {
+        margin-top: 1vh;
+    }
+
+    .cabecalho-navegacao-botao {
+        width: 18vw;
+    }
+
+    .principal-imagem {
+        width: 98vw;
+        height: 50vh;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .principal-banner {
+        margin-top: 5vh;
+        width: 99.83vw;
+        height: 50vh;
+        background-position: center;
+    }
+
+    .principal-historia {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
+
+    .principal-historia div {
+        width: 80vw;
+    }
+
+    .principal-historia img {
+        width: 80vw;
+    }
+
+    .principal-areasAtuacao {
+        height: 625vh;
+    }
+
+    .principal-soja {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-soja div {
+        width: 80vw;
+    }
+
+    .principal-soja img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-milho {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-milho div {
+        width: 80vw;
+    }
+
+    .principal-milho img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-algodao {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-algodao div {
+        width: 80vw;
+    }
+
+    .principal-algodao img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-bovinos {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-bovinos div {
+        width: 80vw;
+    }
+
+    .principal-bovinos img {
+        width: 80vw;
+    }
+
+    /*divisoria*/
+
+    .principal-aves {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .principal-aves div {
+        width: 80vw;
+    }
+
+    .cabecalho-navegacao.active .cabecalho-navegacao-botao {
+        width: 95vw;
+    }
+
+    .principal-quadroDiretores {
+        height: 170vh;
+    }
+
+    .principal-tabela .tabela-diretores {
+        width: 50vw;
+    }
+
+    .principal-institucionais {
+        height: 150vh;
+    }
+
+    .principal-trabalheConosco {
+        height: 180vh;
+    }
+
+    .formulario {
+        width: 80vw;
+        height: 150vh;
+    }
+
+}
