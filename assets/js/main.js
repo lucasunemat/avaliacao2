@@ -1,7 +1,9 @@
-/*
-const constHamburguer = document.querySelector(".hamburguer");
-const constNav = document.querySelector(".cabecalho-navegacao");
-constHamburguer.addEventListener("click", () =>
-    constNav.classList.toggle("active"),
-);
-*/
+
+document.addEventListener('DOMContentLoaded', e => {
+    const botao = document.querySelector('#formulario-botao');
+    console.log(botao);
+    botao.addEventListener('submit', () => {
+        console.log('Clicou no botão');
+    });
+});
+
