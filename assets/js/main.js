@@ -27,3 +27,17 @@ function voltarInicio(link) {
         })
 }
 
+function enviarFormulario() {
+    const nome = document.querySelector("#nome").value;
+    const email = document.querySelector("#email").value;
+    const telefone = document.querySelector("#telefone").value;
+
+    if (nome == "" || email == "" || telefone == "") {
+        alert("Preencha todos os campos!");
+    } else {
+        alert("Mensagem enviada com sucesso!");
+        nome.value = "";
+        email.value = "";
+        telefone.value = "";
+    }
+}
