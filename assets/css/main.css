@@ -17,6 +17,11 @@
     scroll-behavior: smooth;
 }
 
+#conteudo-pagina {
+    height: auto;
+    min-height: 100vh;
+}
+
 .cabecalho {
     background-color: #053d75;
     box-shadow: 0px 0px 10px #000;
@@ -591,7 +596,8 @@ td {
 }
 
 .container-boas-vindas {
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

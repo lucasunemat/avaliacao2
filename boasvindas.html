@@ -12,15 +12,15 @@
 <body>
     <header class="cabecalho">
         <nav class="cabecalho-navegacao">
-            <a href="../boasvindas.html"><img class="logo-cooperativa" src="../assets/img/logo-cooperativa-3.png"
+            <a onclick="voltarInicio('boasvindas')" href="#"><img class="logo-cooperativa" src="../assets/img/logo-cooperativa-3.png"
                     alt="logo-cooperativa"></a>
             <button class="hamburguer"></button>
             <ul class="navegacao-lista">
-                <li><a href="./pages/index.html">Historia</a></li>
-                <li><a href="./pages/areasAtuacao.html">Áreas de atuação</a></li>
-                <li><a href="./pages/quadroDiretores.html">Quadro de diretores</a></li>
-                <li><a href="./pages/trabalheConosco.html">Trabalhe conosco</a></li>
-                <li><a href="./pages/institucionais.html">Material Institucional</a></li>
+                <li><a onclick="menu('index')" href="#">Historia</a></li>
+                <li><a onclick="menu('areasAtuacao')" href="#">Áreas de atuação</a></li>
+                <li><a onclick="menu('quadroDiretores')" href="#">Quadro de diretores</a></li>
+                <li><a onclick="menu('trabalheConosco')" href="#">Trabalhe conosco</a></li>
+                <li><a onclick="menu('institucionais')" href="#">Material Institucional</a></li>
                 <li><button class="cabecalho-navegacao-botao"><a
                             href="https://wa.me/556696613990?text=Olá!%20Gostaria%20de%20falar%20com%20o%20Robison.">Chamar
                             no
@@ -28,7 +28,7 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="conteudo-pagina">
         <section class="container-boas-vindas">
             <div>
                 <h1>Bem vindo(a) ao portal da COACEN! </h1>
@@ -60,7 +60,6 @@
         </section>
     </footer>
     <script src='./assets/js/main.js'></script>
-    <script src='./assets/js/ajax.js'></script>
 </body>
 
 </html>
